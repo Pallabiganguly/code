@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node index.js",
-    "hello-mark": "echo 'hello mark'"
+    "start": "node pallabi.js",
+    "hello-mark": "node test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "neo4j-driver": "^1.7.6"
+    "neo4j-driver": "^1.7.6",
+    "body-parser": "latest"
   }
 }
